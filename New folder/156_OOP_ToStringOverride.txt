@@ -1,0 +1,20 @@
+public class OOP_ToStringOverride {
+    public static void main(String[] args) {
+        Book book = new Book("Effective Java", "Joshua Bloch");
+        System.out.println(book);
+    }
+}
+
+class Book {
+    String title, author;
+
+    Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{title='" + title + "', author='" + author + "'}";
+    }
+}

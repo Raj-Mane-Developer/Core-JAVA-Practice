@@ -1,0 +1,7 @@
+int sum = 1 ;
+do
+{
+	System.out.println("Do WHile Loop");
+	sum++;
+}
+while (sum<5);

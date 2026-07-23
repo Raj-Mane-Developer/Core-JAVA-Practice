@@ -1,0 +1,11 @@
+public class Recursion_SumOfDigits {
+    public static void main(String[] args) {
+        int num = 98765;
+        System.out.println("Sum of digits: " + sumDigits(num));
+    }
+
+    static int sumDigits(int num) {
+        if (num == 0) return 0;
+        return num % 10 + sumDigits(num / 10);
+    }
+}

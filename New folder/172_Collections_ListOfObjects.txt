@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class Collections_ListOfObjects {
+    public static void main(String[] args) {
+        ArrayList<Student> students = new ArrayList<>();
+        students.add(new Student("Amit", 22));
+        students.add(new Student("Neha", 21));
+        for (Student s : students) {
+            System.out.println(s.name + " - " + s.age);
+        }
+    }
+}
+
+class Student {
+    String name;
+    int age;
+
+    Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}

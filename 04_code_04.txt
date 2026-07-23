@@ -1,0 +1,10 @@
+double marks =38.2 ; 
+		 
+		 if(marks>=37)
+		 {
+		 System.out.println("Pass");
+		 }
+		 else
+		 {
+			 System.out.println("Fail");
+		 }

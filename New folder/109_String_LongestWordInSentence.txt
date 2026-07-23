@@ -1,0 +1,13 @@
+public class String_LongestWordInSentence {
+    public static void main(String[] args) {
+        String sentence = "The quick brown fox jumps over the lazy dog";
+        String[] words = sentence.split(" ");
+        String longest = "";
+        for (String word : words) {
+            if (word.length() > longest.length()) {
+                longest = word;
+            }
+        }
+        System.out.println("Longest word: " + longest);
+    }
+}

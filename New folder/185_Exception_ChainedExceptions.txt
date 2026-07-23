@@ -1,0 +1,18 @@
+public class Exception_ChainedExceptions {
+    public static void main(String[] args) {
+        try {
+            process();
+        } catch (RuntimeException e) {
+            System.out.println("Caught: " + e.getMessage());
+            System.out.println("Caused by: " + e.getCause());
+        }
+    }
+
+    static void process() {
+        try {
+            int result = 5 / 0;
+        } catch (ArithmeticException e) {
+            throw new RuntimeException("Processing failed", e);
+        }
+    }
+}

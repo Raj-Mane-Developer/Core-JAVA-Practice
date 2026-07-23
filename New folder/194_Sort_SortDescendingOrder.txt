@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Sort_SortDescendingOrder {
+    public static void main(String[] args) {
+        Integer[] arr = {5, 2, 9, 1, 7};
+        Arrays.sort(arr, Collections.reverseOrder());
+        System.out.println(Arrays.toString(arr));
+    }
+}

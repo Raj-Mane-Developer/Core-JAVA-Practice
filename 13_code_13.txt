@@ -1,0 +1,16 @@
+int number = 67;
+		boolean flag = false;
+		
+		
+		for(int i=2;i<number;i++)
+		{
+			if(number%i==0)
+			{
+				flag=true;
+			break;
+			}
+		}
+		if(flag==false)
+			System.out.println("PRIME");
+		else
+			System.out.println("COMPOSITE");

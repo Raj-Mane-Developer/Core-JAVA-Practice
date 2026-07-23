@@ -1,0 +1,13 @@
+import java.util.Arrays;
+
+public class Array_ArraysUtilityMethods {
+    public static void main(String[] args) {
+        int[] arr = {5, 2, 8, 1, 9};
+        Arrays.sort(arr);
+        System.out.println("Sorted: " + Arrays.toString(arr));
+        int index = Arrays.binarySearch(arr, 8);
+        System.out.println("Index of 8: " + index);
+        int[] copy = Arrays.copyOf(arr, 3);
+        System.out.println("First 3 elements: " + Arrays.toString(copy));
+    }
+}

@@ -1,0 +1,7 @@
+public class String_CountWords {
+    public static void main(String[] args) {
+        String sentence = "This is a simple Java sentence";
+        String[] words = sentence.trim().split("\\s+");
+        System.out.println("Word count: " + words.length);
+    }
+}

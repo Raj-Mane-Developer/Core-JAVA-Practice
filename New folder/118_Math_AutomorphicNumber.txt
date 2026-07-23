@@ -1,0 +1,8 @@
+public class Math_AutomorphicNumber {
+    public static void main(String[] args) {
+        int num = 25;
+        long square = (long) num * num;
+        boolean isAutomorphic = String.valueOf(square).endsWith(String.valueOf(num));
+        System.out.println(num + " is automorphic? " + isAutomorphic);
+    }
+}

@@ -1,0 +1,14 @@
+import java.util.LinkedList;
+
+public class Collections_LinkedListBasics {
+    public static void main(String[] args) {
+        LinkedList<String> list = new LinkedList<>();
+        list.add("B");
+        list.add("C");
+        list.addFirst("A");
+        list.addLast("D");
+        System.out.println(list);
+        list.removeFirst();
+        System.out.println(list);
+    }
+}

@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class Collections_CustomComparator {
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
+        names.add("Charlie");
+        names.add("Al");
+        names.add("Bob");
+        Collections.sort(names, new Comparator<String>() {
+            public int compare(String a, String b) {
+                return a.length() - b.length();
+            }
+        });
+        System.out.println(names);
+    }
+}

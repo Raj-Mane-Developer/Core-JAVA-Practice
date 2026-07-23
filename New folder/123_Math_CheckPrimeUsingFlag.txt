@@ -1,0 +1,14 @@
+public class Math_CheckPrimeUsingFlag {
+    public static void main(String[] args) {
+        int num = 97;
+        boolean flag = false;
+        if (num <= 1) flag = true;
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                flag = true;
+                break;
+            }
+        }
+        System.out.println(num + " is prime? " + !flag);
+    }
+}

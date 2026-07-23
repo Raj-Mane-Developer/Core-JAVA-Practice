@@ -1,0 +1,12 @@
+public class Math_DecimalToBinary {
+    public static void main(String[] args) {
+        int num = 42;
+        StringBuilder binary = new StringBuilder();
+        int temp = num;
+        while (temp > 0) {
+            binary.insert(0, temp % 2);
+            temp /= 2;
+        }
+        System.out.println(num + " in binary = " + binary);
+    }
+}

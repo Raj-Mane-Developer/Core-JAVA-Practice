@@ -1,0 +1,7 @@
+public class Control_YearCentury {
+    public static void main(String[] args) {
+        int year = 2026;
+        int century = (year % 100 == 0) ? year / 100 : year / 100 + 1;
+        System.out.println("Century: " + century);
+    }
+}

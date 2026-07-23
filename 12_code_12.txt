@@ -1,0 +1,22 @@
+int number=61;
+		boolean flag=false ;
+
+for(int i=2;i<number;i++)
+{
+if(number%i==0)
+{
+	flag=true;
+	
+
+}
+}
+
+
+if(flag==true)
+{
+	System.out.println(" non-PRIME");
+}
+else
+{
+	System.out.println("prime");
+}

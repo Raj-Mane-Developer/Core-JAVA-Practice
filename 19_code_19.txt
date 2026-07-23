@@ -1,0 +1,10 @@
+		int[] arr=new int[10000];
+		for (int i=0;i<arr.length;i++)
+		{
+			arr[i]=i;
+				
+		}
+		for(int i=0;i<10000;i++)
+		{
+			System.out.println(arr[i]);
+		}

@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class Sort_SortObjectsByField {
+    public static void main(String[] args) {
+        ArrayList<Person> people = new ArrayList<>();
+        people.add(new Person("Zara", 25));
+        people.add(new Person("Amit", 30));
+        people.add(new Person("Bina", 22));
+        Collections.sort(people, Comparator.comparing(p -> p.name));
+        for (Person p : people) {
+            System.out.println(p.name + " - " + p.age);
+        }
+    }
+}
+
+class Person {
+    String name;
+    int age;
+
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}

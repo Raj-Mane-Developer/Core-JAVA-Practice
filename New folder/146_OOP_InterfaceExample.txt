@@ -1,0 +1,18 @@
+public class OOP_InterfaceExample {
+    public static void main(String[] args) {
+        Shape shape = new Circle();
+        System.out.println("Area: " + shape.area());
+    }
+}
+
+interface Shape {
+    double area();
+}
+
+class Circle implements Shape {
+    double radius = 5;
+
+    public double area() {
+        return Math.PI * radius * radius;
+    }
+}

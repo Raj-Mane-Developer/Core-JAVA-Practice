@@ -1,0 +1,33 @@
+		System.out.println("please enter the rows::");
+	       Scanner scan=new Scanner(System.in);
+	       int rows=scan.nextInt();
+	       
+	       int[][] arr=new int[rows][];
+	       
+	       for(int i=0;i<arr.length;i++)
+	       {
+	           System.out.println("row:"+i);
+	           int columns=scan.nextInt();
+	           arr[i]=new int[columns]; //new int[2];
+	       }
+	       
+
+	       for(int i=0;i<arr.length;i++)
+	       {
+	           for(int j=0;j<arr[i].length;j++)
+	           {
+	                System.out.print("row: "+i+"column: ");
+	               
+	                int element=scan.nextInt();
+	               arr[i][j]=element;
+	           }
+	       }
+	       
+	       for(int i=0;i<arr.length;i++)
+	       {
+	           for(int j=0;j<arr[i].length;j++)
+	           {
+	               System.out.print(arr[i][j]+" ");
+	           }
+	           System.out.println();
+	       }
