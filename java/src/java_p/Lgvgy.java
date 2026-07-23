@@ -1,0 +1,36 @@
+package java_p;
+
+public class Lgvgy {
+
+	public static void main(String args[]) {
+		
+		Student first=new Student();
+        
+        first.StudentAge = 22;
+        first.StudentName = "Rajwardhan";
+        first.StudentStandard=10 ;
+		
+		System.out.println(first.StudentName);
+		System.out.println(first.StudentAge);
+		System.out.println(first.StudentStandard);
+		
+   
+	}
+	}
+    class Student
+    {
+    	
+        int StudentAge ;
+        int StudentStandard ; 
+        String StudentName ;
+        
+        
+		
+    }
+
+
+
+
+
+
+

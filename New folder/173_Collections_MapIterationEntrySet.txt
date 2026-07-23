@@ -1,0 +1,14 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Collections_MapIterationEntrySet {
+    public static void main(String[] args) {
+        HashMap<String, Double> prices = new HashMap<>();
+        prices.put("Apple", 1.5);
+        prices.put("Bread", 2.75);
+        prices.put("Milk", 3.2);
+        for (Map.Entry<String, Double> entry : prices.entrySet()) {
+            System.out.println(entry.getKey() + " costs $" + entry.getValue());
+        }
+    }
+}

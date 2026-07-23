@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Collections_IteratorExample {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("One");
+        list.add("Two");
+        list.add("Three");
+        Iterator<String> it = list.iterator();
+        while (it.hasNext()) {
+            String value = it.next();
+            System.out.println(value);
+            if (value.equals("Two")) {
+                it.remove();
+            }
+        }
+        System.out.println("After removal: " + list);
+    }
+}

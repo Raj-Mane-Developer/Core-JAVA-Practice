@@ -1,0 +1,11 @@
+public class Math_BinaryToDecimal {
+    public static void main(String[] args) {
+        String binary = "101010";
+        int decimal = 0;
+        for (int i = 0; i < binary.length(); i++) {
+            char bit = binary.charAt(i);
+            decimal = decimal * 2 + (bit - '0');
+        }
+        System.out.println(binary + " in decimal = " + decimal);
+    }
+}

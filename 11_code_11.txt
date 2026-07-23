@@ -1,0 +1,7 @@
+int number=11;
+				boolean falg=false ;
+		
+		if(number%10!=0)
+		{
+			System.out.println("x");
+		}
