@@ -1,7 +1,0 @@
-public class String_RemoveWhitespace {
-    public static void main(String[] args) {
-        String str = "  H e l l o   W o r l d  ";
-        String result = str.replaceAll("\\s+", "");
-        System.out.println("Result: [" + result + "]");
-    }
-}

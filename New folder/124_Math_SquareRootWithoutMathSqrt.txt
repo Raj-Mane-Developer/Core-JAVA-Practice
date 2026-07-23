@@ -1,9 +1,0 @@
-public class Math_SquareRootWithoutMathSqrt {
-    public static void main(String[] args) {
-        double num = 50, guess = num / 2;
-        for (int i = 0; i < 20; i++) {
-            guess = (guess + num / guess) / 2;
-        }
-        System.out.printf("Square root of %.1f is approximately %.4f%n", num, guess);
-    }
-}

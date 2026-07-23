@@ -1,7 +1,0 @@
-public class String_ReplaceCharacters {
-    public static void main(String[] args) {
-        String str = "Java is fun, Java is powerful";
-        String replaced = str.replace("Java", "Python");
-        System.out.println(replaced);
-    }
-}
