@@ -1,9 +1,0 @@
-public class Loop_DoWhileMenu {
-    public static void main(String[] args) {
-        int choice = 1;
-        do {
-            System.out.println("Processing choice: " + choice);
-            choice++;
-        } while (choice <= 5);
-    }
-}

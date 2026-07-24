@@ -1,6 +1,0 @@
-public class Math_DecimalToHex {
-    public static void main(String[] args) {
-        int num = 255;
-        System.out.println(num + " in hexadecimal = " + Integer.toHexString(num));
-    }
-}
