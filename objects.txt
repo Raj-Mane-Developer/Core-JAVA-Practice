@@ -1,4 +1,3 @@
-package core_java_2_practicee;
 
 public class First {
 
