@@ -1,0 +1,50 @@
+package core_java_2_practicee;
+
+import java.util.Scanner;
+
+public class Percentage_Calculator {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		 double marks = scan.nextDouble() ;
+			if (marks>=37 && marks <=49.99)
+			{
+			System.out.print("D grade");
+			}
+
+			else if (marks>=50 && marks <=59.99)
+			{
+			System.out.print("C grade");
+
+			}
+
+			else if(marks>=60 && marks<=69.99)
+			{
+			System.out.print("B grade");
+			}
+			else if (marks>=70 && marks<=79.99)
+			{
+			System.out.print("A grade");
+
+			}
+
+			else if (marks>=80 && marks<=100)
+			{
+			System.out.print("MERIT");
+
+			}
+
+			else
+			{
+			System.out.print("FAIL OR INVALID");
+
+			}
+
+
+		
+		
+	}
+
+}
