@@ -1,4 +1,4 @@
-int num=0;
+ int num=0;
 		boolean flag=false;
 		for(int i=1;i<=500;i++)
 		{

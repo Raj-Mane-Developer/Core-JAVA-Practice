@@ -1,4 +1,4 @@
-double marks =38.2 ; 
+   double marks =38.2 ; 
 		 
 		 if(marks>=37)
 		 {

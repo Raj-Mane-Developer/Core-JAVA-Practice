@@ -1,4 +1,4 @@
-int number = 67;
+ int number = 67;
 		boolean flag = false;
 		
 		

@@ -1,4 +1,4 @@
-		System.out.println("please enter the rows::");
+  		System.out.println("please enter the rows::");
 	       Scanner scan=new Scanner(System.in);
 	       int rows=scan.nextInt();
 	       

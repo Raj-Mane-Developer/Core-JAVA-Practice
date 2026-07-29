@@ -1,4 +1,4 @@
-int number=61;
+ int number=61;
 		boolean flag=false ;
 
 for(int i=2;i<number;i++)

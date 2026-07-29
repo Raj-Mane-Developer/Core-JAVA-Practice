@@ -1,4 +1,4 @@
-int counter=0;
+ int counter=0;
 	int number=2;
 	
 	while(counter<251)

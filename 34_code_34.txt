@@ -1,4 +1,4 @@
-	int[][] arr=new int[3][];
+ 	int[][] arr=new int[3][];
 		
 		arr[0]=new int[96758687];
 		arr[1]=new int[66787678];

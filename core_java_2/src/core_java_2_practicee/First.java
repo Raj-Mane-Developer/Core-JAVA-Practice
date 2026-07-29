@@ -3,141 +3,26 @@ package core_java_2_practicee;
 public class First {
 
 	public static void main(String[] args) {
-		Pirate first=new Pirate(); //luffy
-		Pirate second=new Pirate(); //zoro
-		Pirate third=new Pirate(); // sanji
-		Pirate fourth=new Pirate();//jimbe
-		Pirate fifth=new Pirate();//brook
-		Pirate sixth=new Pirate();//robin
-		Pirate seventh=new Pirate();//chopper
-		Pirate eighth=new Pirate();//franky
-		Pirate ninth=new Pirate();//ussop
-		Pirate tenth=new Pirate();//nami
-		
-		
-		
-		
-		
-        first.Pirate_Name = "Luffy";
-        first.Pirate_Bounty=2147483647 ;
-		
-        second.Pirate_Name = "Zoro";
-        second.Pirate_Bounty=2000000000;
-        
-        third.Pirate_Name = "Sanji";
-        third.Pirate_Bounty=1500000000;
-        
-        fourth.Pirate_Name = "Jimbei";
-        fourth.Pirate_Bounty=1000000000;
-        
-        fifth.Pirate_Name = "Robin";
-        fifth.Pirate_Bounty=1000000000;
-        
-        sixth.Pirate_Name = "Brook";
-        sixth.Pirate_Bounty=1000000000;
-       
-        seventh.Pirate_Name = "Franky";
-        seventh.Pirate_Bounty=10000000;
-        
-        eighth.Pirate_Name = "Chopper";
-        eighth.Pirate_Bounty=1000;
-        
-        ninth.Pirate_Name = "Ussop";
-        ninth.Pirate_Bounty=1000000000;
+	
+	Student one=new Student();
+	
+	
+	}
 
-        tenth.Pirate_Name = "Nami";
-        tenth.Pirate_Bounty=1000000000;
-        
-        
-        
-        
-        
-        
-        
-		System.out.println(first.Pirate_Name);
-		System.out.println("Bounty:-" +first.Pirate_Bounty);
-		
-		
-		System.out.println();
-	     
-			System.out.println(second.Pirate_Name);
-			System.out.println("Bounty:-" +second.Pirate_Bounty);
-			
-			System.out.println();
-		     
-			System.out.println(third.Pirate_Name);
-			System.out.println("Bounty:-" +third.Pirate_Bounty);
-			
-			System.out.println();
-		     
-			System.out.println(fourth.Pirate_Name);
-			System.out.println("Bounty:-" +fourth.Pirate_Bounty);
-			//System.out.println(fourth.Pirate_Bounty);
-			
-			System.out.println();
-		     
-			System.out.println(fifth.Pirate_Name);
-			System.out.println("Bounty:-" +fifth.Pirate_Bounty);
-			
-			System.out.println();
-		     
-			System.out.println(sixth.Pirate_Name);
-			System.out.println("Bounty:-" +sixth.Pirate_Name);
-			
-			System.out.println();
-		     
-			System.out.println(seventh.Pirate_Name);
-			System.out.println("Bounty:-" +seventh.Pirate_Bounty);
-			
-			
-			System.out.println();
-		     
-			System.out.println(eighth.Pirate_Name);
-			System.out.println("Bounty:-" +eighth.Pirate_Bounty);
-			//System.out.println(eighth.StudentStandard);
-			
-			System.out.println();
-		     
-			System.out.println(ninth.Pirate_Name);
-			System.out.println("Bounty:-" +ninth.Pirate_Bounty);
-			//System.out.println(ninth.StudentStandard);
-			
-			System.out.println();
-		     
-			System.out.println(tenth.Pirate_Name);
-			System.out.println("Bounty:-" + tenth.Pirate_Bounty);
-			//System.out.println(tenth.StudentStandard);
-			
-			System.out.println();
-			System.out.println();
-			System.out.println();
-			System.out.println();
-			System.out.println();
-		
-			System.out.println("Footballers");
-			
-   player first1 = new player();
-   first1.player_name="Ronaldo";
-   first1.player_age=45;
-   first1.player_goals=100;
-   
-   System.out.println("Name:-" + first1.player_name);
-  System.out.println("Age:-" + first1.player_age);
-  System.out.println("Goals:-" + first1.player_goals);
+}
+class Student
+{
+	String name ;
+	String Email;
+	
+	public void setName(String nm)
+	{
+		if(nm.length()>=4)
+		{
+			this.name=nm;
+		}
 	}
-	}
-    class Pirate
-    {
-    	
-    	
-        int Pirate_Bounty ; 
-        String Pirate_Name ;
-        }
-    class player
-    {
-    	String player_name ; 
-    	int player_age ;
-    	int player_goals ;
-    	
-    	
-    }
+
+
+
+}

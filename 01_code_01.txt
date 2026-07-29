@@ -1,4 +1,4 @@
- double marks = 99 ;
+  double marks = 99 ;
 				if (marks>=37 && marks <=49.99)
 				{
 				System.out.print("D grade");

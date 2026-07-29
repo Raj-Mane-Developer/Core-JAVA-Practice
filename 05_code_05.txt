@@ -1,4 +1,4 @@
-int sum = 1 ;
+ int sum = 1 ;
 do
 {
 	System.out.println("Do WHile Loop");
