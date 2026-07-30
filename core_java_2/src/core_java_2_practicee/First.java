@@ -5,25 +5,28 @@ public class First {
 
 		public static void main(String[] args) {
 		
-		Car car=new Car();
-		
-		car.run(106, "BB", 69);
+			Animal animal=new Animal(20,22);
 		
 		}
-
 	}
-	class Car
+class Animal
+{
+	int age;
+	int age2;
+	
+	public Animal()
 	{
-		String colour;
-		double price;
-		String company;
-		
-		public void run(int i, String s , int j)
-		{
-			System.out.println("car is running");
-			System.out.println(i+j);
-			System.out.println(s.toUpperCase());
-		}
-
-
+		System.out.println();
 	}
+	public Animal (int age)
+	{
+		this.age=age;
+		
+	}
+	public Animal(int i , int j)
+	{
+	System.out.println( i+j);	
+	this.age=i;
+	this.age2=j;
+	}
+}
